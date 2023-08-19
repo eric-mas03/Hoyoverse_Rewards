@@ -95,7 +95,7 @@ def redeem_code(codes: list, ACCOUNT: dict, manual: bool = False) -> None:
                 if not manual and not "salir" in driver.page_source.lower() and not "log out" in driver.page_source.lower():
                     print(f'{RED}[{WHITE}·{RED}] {RESET}Error, manual login required.')
                     driver.quit()
-                    redeem_code(codes, ACCOUNT, False)
+                    redeem_code(codes, ACCOUNT, True)
                     return None
                 
                 if manual: 
