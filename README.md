@@ -1,5 +1,5 @@
 # Hoyoverse_Rewards
-A script that automatically reedems the promotional codes of hoyoverse
+A script that automatically reedems the promotional codes of Genshin Impact
 
 
 ## Installation
