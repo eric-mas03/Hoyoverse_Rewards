@@ -211,7 +211,3 @@ if __name__ == '__main__':
     redeem_code(codes, account, True)
     daily_check_in(account, True)
     print(f'{YELLOW}================================\n{GREEN}[{WHITE}·{GREEN}] {RESET}FINISHED.')
-
-
-
-    
