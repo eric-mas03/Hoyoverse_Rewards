@@ -208,6 +208,6 @@ if __name__ == '__main__':
     """Main function."""
     codes = get_codes("https://genshin-impact.fandom.com/wiki/Promotional_Code")
     account = get_credentials()
-    redeem_code(codes, account, True)
-    daily_check_in(account, True)
+    redeem_code(codes, account)
+    daily_check_in(account)
     print(f'{YELLOW}================================\n{GREEN}[{WHITE}·{GREEN}] {RESET}FINISHED.')
