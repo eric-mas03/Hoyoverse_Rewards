@@ -198,9 +198,6 @@ def daily_check_in(ACCOUNT: dict, manual: bool = False) -> None:
     
     driver.quit()
 
-        
-
-
 
 def get_credentials():
     """Gets the credentials from the credentials.json file."""
