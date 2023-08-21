@@ -1,5 +1,5 @@
 # Hoyoverse_Rewards
-A script that automatically reedems the promotional codes of Genshin Impact
+A script that automatically reedems the promotional codes of Genshin Impact and Honkai Impact and makes the daily check-in
 
 
 ## Installation
